@@ -19,9 +19,11 @@ table {
 th {
   font-size: 16px;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   background-color: #333;
   color: #fff;
+  word-wrap: break-word;
+  
 }
 
 /* Set font size and padding for table cells */
