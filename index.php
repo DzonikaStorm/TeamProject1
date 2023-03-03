@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>O nama</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <?php 
