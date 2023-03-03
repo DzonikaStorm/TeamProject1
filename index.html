@@ -25,7 +25,7 @@
                 "ime" => "Milos",
                 "prezime" => "Krsikapa",
                 "godiste" => 2007,
-                "smjer" => ""
+                "smjer" => "Elektronika"
             ];
 
         ?>
