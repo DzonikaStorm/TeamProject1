@@ -1,67 +1,41 @@
-/* Apply a reset to all elements */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Set a background color for the page */
+/* Set font and background color for the entire page */
 body {
-  background-color: #e0ffff;
   font-family: Arial, sans-serif;
-}
-
-/* Center the content of the page */
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
+  background-color: #f0f0f0;
 }
 
 /* Style the table */
 table {
-  width: 100%;
   border-collapse: collapse;
-  margin-top: 40px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+  table-layout:fixed;
 }
 
-/* Style the table headers */
+/* Set font size and padding for table headers */
 th {
-  background-color: #004d40;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
   color: #fff;
-  font-weight: bold;
-  padding: 12px;
-  text-align: left;
+  word-wrap: break-word;
+  
 }
 
-/* Style the table rows */
-tr {
-  border-bottom: 1px solid #ccc;
-}
-
-/* Style the table data */
+/* Set font size and padding for table cells */
 td {
-  padding: 12px;
-}
-
-/* Style the heading */
-h1 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 36px;
-  color: #004d40;
-}
-
-/* Style the names */
-.name {
-  color: #004d40;
-  font-weight: bold;
-}
-
-/* Style the footer */
-footer {
-  text-align: center;
-  margin-top: 40px;
-  color: #777;
   font-size: 14px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style the first row of the table differently */
+tr:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
