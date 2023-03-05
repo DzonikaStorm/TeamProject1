@@ -1,4 +1,4 @@
 # Tim
 O nama
 
-https://phpetsva.epizy.com
+http://phpetsva.epizy.com/
