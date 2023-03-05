@@ -1,6 +1,6 @@
 <?php
 
-    $sname = 'localhost';
+    $sname = 'infinityfree';
     $unmae = 'epiz_33729133';
     $password = 'mmzl12345';
     $db_name = 'teamproject1';
