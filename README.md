@@ -1,4 +1,3 @@
 # Tim
 O nama
-
-http://phpetsva.epizy.com/
+https://dzonikastorm.github.io/Tim/
