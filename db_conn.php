@@ -1,8 +1,8 @@
 <?php
 
-    $sname = 'localhost';
-    $unmae = 'root';
-    $password = '';
+    $sname = 'infinityfree';
+    $unmae = 'epiz_33729133';
+    $password = 'mmzl12345';
     $db_name = 'teamproject1';
 
     $conn = mysqli_connect($sname, $unmae, $password, $db_name);
