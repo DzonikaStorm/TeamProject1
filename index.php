@@ -5,6 +5,13 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="about.php">About</a></li>
+            </ul>
+        </nav>
         <?php
 include "db_conn.php";
 
