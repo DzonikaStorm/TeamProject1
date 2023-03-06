@@ -7,9 +7,11 @@
 
     $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
-    // id
-    // userName
-    // password
-    // email
+    if (!$conn){
+        echo 'Connection faild';
+    } else {
+        echo 'Conneted';
+    }
+
 ?>
 
